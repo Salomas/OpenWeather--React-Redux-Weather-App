@@ -1,7 +1,7 @@
 export function fetchWeather(city){
 
     return function(dispatch){
-      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=bca130126a0ee25843177e4881a6567a`)
+      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid={API KEY}`)
       .then(res => {
         return res.json();
       })
