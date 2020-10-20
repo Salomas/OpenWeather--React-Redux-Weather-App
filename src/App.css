@@ -1,0 +1,14 @@
+.main form{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.board{
+    background-color: #ff000014;
+    width: 50%;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #ffff0000;
+    border-style: solid;
+}
